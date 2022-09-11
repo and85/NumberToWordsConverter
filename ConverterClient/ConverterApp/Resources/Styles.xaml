@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="Label" x:Key="ConverterLabel">
+        <Setter Property="FontStyle" Value="Italic"/>
+        <Setter Property="FontSize" Value="15"/>
+    </Style>
+    
+    <Style TargetType="Button" x:Key="ConverterButton">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="FontSize" Value="24"/>
+    </Style>
+
+    <Style TargetType="TextBox" x:Key="InputTextBox">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="Margin" Value="5"/>
+    </Style>
+
+    <Style TargetType="ProgressBar" x:Key="ConverterProgressBar">
+        <Setter Property="IsIndeterminate" Value="True"/>
+        <Setter Property="Margin" Value="5"/>
+    </Style>
+
+    <SolidColorBrush x:Key="SuccessResult" Color="Green" />
+    <SolidColorBrush x:Key="FailureResult" Color="Red" />
+
+</ResourceDictionary>
